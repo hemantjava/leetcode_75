@@ -11,22 +11,23 @@ package com.hemant.easy;
  * Input: s = "leetcode"
  * Output: "leotcede"
  */
-public class $_345 {
+public class ReverseVowels_$345 {
     public static void main(String[] args) {
         System.out.println(reverseVowels("IceCreAm"));// AceCreIm
         System.out.println(reverseVowels("leetCode"));//leotCede
     }
 
+    // Two pointer approach
     public static String reverseVowels(String s) {
         char[] chars = s.toCharArray();
-        String vowels = "aeiouAEIOU"; // to check Vowels
+        String vowels = "aeiouAEIOU"; // group of Vowels to check
         int left = 0, right = chars.length - 1;
         while (left < right) {
-            // Move a left pointer if it's not a vowel
-            if (vowels.indexOf(chars[left])== -1) {
+            // Move a left to a right pointer if it's not a vowel
+            if (vowels.indexOf(chars[left]) == -1) {
                 left++;
             }
-            // Move a right pointer if it's not a vowel
+            // Move a right to left pointer if it's not a vowel
             else if (vowels.indexOf(chars[right]) == -1) {
                 right--;
             }
