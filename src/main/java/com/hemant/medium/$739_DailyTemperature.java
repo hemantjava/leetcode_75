@@ -7,7 +7,7 @@ import java.util.Stack;
  * is the number of days you have to wait after the ith day to get a warmer temperature.
  * If there is no future day for which this is possible, keep answer[i] == 0 instead.
  */
-public class DailyTemperature_$739 {
+public class $739_DailyTemperature {
         public static int[] dailyTemperatures(int[] temperatures) {
             int n = temperatures.length;
             int[] answer = new int[n];

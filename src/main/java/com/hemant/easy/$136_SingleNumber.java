@@ -25,7 +25,7 @@ package com.hemant.easy;
  * 0111 ^ 0001  => 0110->6
  * 0110 ^ 0010  => 0100 ->4
  */
-public class SingleNumber_$136 {
+public class $136_SingleNumber {
 
     public static void main(String[] args) {
         int[] nums1 = {2, 2, 1};

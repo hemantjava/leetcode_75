@@ -1,6 +1,6 @@
 package com.hemant.easy;
 
-public class ReverseLinkedList_$206 {
+public class $206_ReverseLinkedList {
     public static class ListNode {
         int val;
         ListNode next;

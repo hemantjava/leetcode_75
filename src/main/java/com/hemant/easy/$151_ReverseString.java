@@ -14,7 +14,7 @@ package com.hemant.easy;
  * Input: s = "  hello world  "
  * Output: "world hello"
  */
-public class ReverseString_$151 {
+public class $151_ReverseString {
     public static void main(String[] args) {
         System.out.println(reverseWords("the sky is blue"));//"blue is sky the"
         System.out.println(reverseWords("  hello world  "));//"world hello"

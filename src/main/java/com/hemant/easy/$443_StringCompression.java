@@ -1,6 +1,6 @@
 package com.hemant.easy;
 
-public class StringCompression_$443 {
+public class $443_StringCompression {
     public static void main(String[] args) {
         char[] chars = new char[]{'a', 'b', 'c'};
         System.out.println(compress(chars));

@@ -13,7 +13,7 @@ package com.hemant.easy;
  * Input: word1 = "ab", word2 = "pqrs"
  * Output: "apbqrs"
  */
-public class MergeStrAlternately_$1768 {
+public class $1768_MergeStrAlternately {
     public static void main(String[] args) {
         System.out.println(mergeAlternately("abc", "pqr"));//apbqcr
         System.out.println(mergeAlternately("ab", "pqrs"));//apbqrs

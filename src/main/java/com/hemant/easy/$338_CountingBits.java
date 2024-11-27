@@ -25,7 +25,7 @@ package com.hemant.easy;
  * 4 --> 100
  * 5 --> 101
  */
-public class CountingBits_$338 {
+public class $338_CountingBits {
     public static int[] countBits(int n) {
         int[] ans = new int[n + 1];
         for (int i = 1; i <= n; i++) {

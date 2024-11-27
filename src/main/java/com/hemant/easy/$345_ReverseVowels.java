@@ -11,7 +11,7 @@ package com.hemant.easy;
  * Input: s = "leetcode"
  * Output: "leotcede"
  */
-public class ReverseVowels_$345 {
+public class $345_ReverseVowels {
     public static void main(String[] args) {
         System.out.println(reverseVowels("IceCreAm"));// AceCreIm
         System.out.println(reverseVowels("leetCode"));//leotCede

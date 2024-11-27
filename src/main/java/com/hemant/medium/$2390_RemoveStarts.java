@@ -15,7 +15,7 @@ package com.hemant.medium;
  Output: ""
  Explanation: The entire string is removed, so we return an empty string.
  */
-public class RemoveStarts_$2390 {
+public class $2390_RemoveStarts {
     public static void main(String[] args) {
         String s = "leet**cod*e";
         System.out.println(removeStars(s));//lecoe
